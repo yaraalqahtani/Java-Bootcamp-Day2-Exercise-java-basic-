@@ -60,7 +60,7 @@ the keyword is present in the sentence and prints the result. */
     System.out.println("enter keyword ");
     String keyword =input.nextLine();
    boolean contain_or_not = new_sentence.contains(keyword);
-    System.out.println("the keyword  "+keyword +(contain_or_not ?" is present in the sentence":" is not present in the sentence"));
+    System.out.println("the keyword  "+keyword +(contain_or_not ));
 
     /*7.
 Develop a program that takes a sentence and a word to replace as input, then
@@ -85,7 +85,7 @@ ignoring the case, then prints whether they are equal or not. */
     String F_word=input.nextLine();
     System.out.println("enter second word");
     String S_word=input.nextLine();
-    System.out.println(F_word.equalsIgnoreCase(S_word)?"Strings are equal (ignoring case)":"Strings are not equal ");
+    System.out.println(F_word.equalsIgnoreCase(S_word));
 
 
 
